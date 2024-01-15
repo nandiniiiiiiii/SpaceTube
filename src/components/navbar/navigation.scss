@@ -1,0 +1,31 @@
+.navb{
+    height: 40px;
+    background: rgba(252, 252, 252, 0.2);
+    border-radius: 50px;
+    border-left: 2px solid rgba(255,255,255, .2);
+    border-right: 2px solid rgba(255,255,255, .2);
+    border-bottom: 2px solid rgba(255,255,255, .2);
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+
+    .wrapper{
+        max-width: 1366px;
+        margin: 1vh 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40vh;
+
+        span{
+            font-weight: bold;
+            font-size: 1.2rem;
+            align-self: center;
+            margin: 0 40vh 0 0;
+        }
+        .social{
+            display: flex;
+            gap: 20px;
+        }
+    }
+}

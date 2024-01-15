@@ -1,0 +1,58 @@
+.herocont{
+    height: calc(100vh - 60px);
+    // background-color: white;
+    // margin: 20px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+
+    .textcontainer{
+        max-width: 1366px;
+        margin: auto;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        flex-direction: column;
+        margin: 0px 0px 0px 100px;
+        gap: 60px;
+        background: rgba(252, 252, 252, 0.2);
+        border-radius: 50px;
+        border-left: 2px solid rgba(255,255,255, .2);
+        border-right: 2px solid rgba(255,255,255, .2);
+        border-bottom: 2px solid rgba(255,255,255, .2);
+        padding: 0 20px;
+
+        .btn{
+            button{
+                width: 150px;
+                height: 30px;
+                background: transparent;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .imgcontainer{
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    img{
+        margin: 10px;
+        height: 500px;
+        width: 500px;
+    }
+}
